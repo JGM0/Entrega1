@@ -1,0 +1,47 @@
+.parrafo{
+    color: rgb(9, 236, 141);
+    background-color: rgb(143, 102, 113);
+}
+.lol{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(236, 50, 56);
+ }
+ .cap{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(247, 191, 80);
+
+ }
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img{
+    width: 150px;
+    height: 150px;   
+    border-radius: 360%;
+}
+.ficha{
+    margin: 45px;
+    padding: 10px;
+    width: 200px;
+    height: 200;
+    border-style: solid;
+    border-style: dashed;
+    background-color: rgb(9, 236, 141); 
+  
+}
+.con{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(17, 204, 0);
+
+}
