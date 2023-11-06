@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function calculadora(num1, num2, operacion){
+            alert(num1 + " " + num2 + " " + operacion);
+            let Resultado = 0;
+            if (operacion === 1){
+                resultado = parseFloat(num1) + parseFloat(num2);        
+            }
+            if (operacion === 2){
+                resultado = parseFloat(num1) - parseFloat(num2);        
+            }
+            if (operacion === 3){
+                resultado = parseFloat(num1) * parseFloat(num2);        
+            }
+            if (operacion === 4){
+                resultado = parseFloat(num1) / parseFloat(num2);        
+            }
+            alert(resultado);
+            const vresultado = document.getElementById("respuesta");
+            vresultado.innerHTML ="<p>Resultado: " + resultado + "<p>";
+                alert("YA ESTA REVISADO")
+            event.preventDefault();     
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="ficha">
+        <form action="">
+            <h2>Calculadora</h2>
+            <label for="n1">N1</label>
+            <input type="number" name="n1" value="0" />
+            <label for="n2">N2</label>
+            <input type="number" name="n2" value="0" />
+            <div id="respuesta">Resultado:</div>
+            <div>
+                <button onclick="calculadora(this.form.n1.value,this.form.n2.value,1)">sumar</button>
+                <button onclick="calculadora(this.form.n1.value,this.form.n2.value,2)">restar</button>
+                <button onclick="calculadora(this.form.n1.value,this.form.n2.value,3)">multiplicar</button>
+                <button onclick="calculadora(this.form.n1.value,this.form.n2.value,4)">dividir</button>
+            </div>
+    
+</body>
+</html>

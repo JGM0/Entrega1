@@ -1,0 +1,66 @@
+
+body{
+    width: 100hw;
+    height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      color: black;
+      background-color:white;
+      font-size:24 px;
+}
+h1{
+    color:blue;
+    font-size: 48px;
+}
+h2{
+    color: green;
+}
+th{
+    width:50px;
+    text-align: center;
+    color : black;
+    border-style:groove;
+    background-color:orange;
+    padding: 10px 10px 10px 10px;
+ }
+ td{
+    width: 50px;
+    text-align: center;
+    color: black;
+    width: 100px;
+    border-style:double;
+    border-color:blue;
+    padding: 10px 10px 10px 10px;
+ }
+
+.columna1{
+   width: 20%;
+}
+.columna2{
+   width: 20%;
+}
+.columna3{
+   width: 20%;
+}
+.columna4{
+   width: 20%;
+}
+.columna5{
+   width: 20%;
+ }
+ .caja{
+   width: 50px;
+   height: 50px;
+   text-align:center ;
+   color:black;
+   background-color:aqua;
+   text-align: center;
+   border-radius: 70px;
+ }
+ 
+a.hover::selection{
+   background-color: blue;
+   color: red;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function sumar(){
+            let n1 = 0;
+            let n2 = 0;
+            let t = 0;
+            //let n1 = n2 = t=0;
+            n1 = parseInt(prompt("Introduce N1:","0"));
+            n2 = parseInt(prompt("Introduce N2:","0"));
+            t = n1 + n2;
+            alert("total " + t);
+        }
+        function restar(){
+            let n1 = 0;
+            let n2 = 0;
+            let t = 0;
+            //let n1 = n2 = t=0;
+            n1 = parseInt(prompt("Introduce N1:","0"));
+            n2 = parseInt(prompt("Introduce N2:","0"));
+            t = n1 - n2;
+            alert("total " + t);
+        }
+        function multiplicar(){
+            let n1 = 0;
+            let n2 = 0;
+            let t = 0;
+            //let n1 = n2 = t=0;
+            n1 = parseInt(prompt("Introduce N1:","0"));
+            n2 = parseInt(prompt("Introduce N2:","0"));
+            t = n1 * n2;
+            alert("total " + t);
+        }
+        function dividir(){
+            let n1 = 0;
+            let n2 = 0;
+            let t = 0;
+            //let n1 = n2 = t=0;
+            n1 = parseInt(prompt("Introduce N1:","0"));
+            n2 = parseInt(prompt("Introduce N2:","0"));
+            t = n1 / n2;
+            alert("total " + t);
+        }
+    </script>
+    <title>Calculadora Javascrpt</title>
+</head>
+<body >
+    <button onclick="sumar();">sumar</button>
+    <button onclick="restar()">restar</button>
+    <button onclick="multiplicar()">multiplicar</button>
+    <button onclick="dividir()">dividir</button>
+<section class="ficha">
+    <form action="">
+        <h2>Calculadora</h2>
+        <label for="n1">N1</label>
+        <input type="number" name="n1" value="0" />
+        <label for="n2">N2</label>
+        <input type="number" name="n2" value="0" />
+        <div> id="respuesta">Resultado</div>
+        <div>
+            
+        </div>
+    </form>
+
+</section>
+
+</body>
+</html>
